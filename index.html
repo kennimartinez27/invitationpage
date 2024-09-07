@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Cumpleaños</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>¡Feliz Cumpleaños, Amor!</h1>
+        <p>Hola mi püa, quiero que sepas que este cumpleaños será inolvidable... He organizado una sorpresa especial para ti, ¡y solo tú puedes decidir a dónde iremos!</p>
+        <div class="button-container">
+            <button onclick="selectDestination('playa')">Playa Magüipi</button>
+            <button onclick="selectDestination('quindio')">Puebleando en Quindío</button>
+            <button onclick="selectDestination('ukumari')">Consotá + Ukumari</button>
+        </div>
+        <div id="destination-info" class="info"></div>
+        <!-- Botón de confirmación -->
+        <button id="confirm-button" style="display: none;" onclick="confirmDestination()">Confirmar destino</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

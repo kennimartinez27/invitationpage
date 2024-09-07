@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0e6f6;
+    padding: 20px; /* Agregar un poco de padding para móviles */
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #e91e63;
+    font-size: 24px; /* Tamaño de fuente ajustado para móviles */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 16px; /* Tamaño de fuente ajustado para móviles */
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column; /* Alineación vertical para botones en móviles */
+    gap: 10px; /* Espacio entre botones */
+}
+
+.button-container button {
+    background-color: #6200ea;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 16px; /* Tamaño de fuente ajustado para móviles */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.confirmation-message {
+    margin-top: 20px;
+    font-size: 18px; /* Tamaño de fuente ajustado para móviles */
+    font-weight: bold;
+    color: #4caf50;
+    border: 2px solid #4caf50;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e8f5e9;
+}
+
+/* Estilos para el botón de confirmar destino */
+#confirm-button {
+    background-color: #3700b3;
+    color: white;
+    padding: 15px 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#confirm-button:hover {
+    background-color: #388e3c;
+    transform: scale(1.05);
+}
+
+#confirm-button:disabled {
+    background-color: #c8e6c9;
+    color: #a5d6a7;
+    cursor: not-allowed;
+}
+
+/* Estilos responsive */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .button-container button {
+        font-size: 14px;
+        padding: 8px 16px;
+    }
+    
+    .info {
+        font-size: 14px;
+    }
+    
+    #confirm-button {
+        font-size: 16px;
+        padding: 12px 24px;
+    }
+}
