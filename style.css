@@ -25,6 +25,7 @@ body {
     box-sizing: border-box;
 }
 
+
 h1 {
     color: #e91e63;
     font-size: 24px; /* Tamaño de fuente ajustado para móviles */
@@ -39,6 +40,8 @@ p {
     display: flex;
     flex-direction: column; /* Alineación vertical para botones en móviles */
     gap: 10px; /* Espacio entre botones */
+    text-align: center;
+    align-items: center;
 }
 
 .button-container button {
