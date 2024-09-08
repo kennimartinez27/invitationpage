@@ -50,7 +50,7 @@ function confirmDestination() {
     } else if (selectedDestination === 'ukumari') {
         confirmationMessage = `
             <h2>¡Excelente Elección Püa!</h2>
-            <p>¡Elegiste Parques Ukumarí y Consotá! 🦁🌿 Nos adentraremos en un mundo de aventuras y naturaleza exuberante, desde la majestuosa fauna del Bioparque Ukumarí hasta las emocionantes atracciones del Parque Consotá. ¡Estoy listo para vivir esta increíble experiencia contigo y hacer de tu cumpleaños algo verdaderamente especial mi püa!</p>
+            <p>¡Elegiste Parques Ukumarí y Consotá! 🦁🌿 Nos adentraremos en un mundo de aventuras y naturaleza. ¡Estoy listo para vivir esta increíble experiencia contigo y hacer de tu cumpleaños algo verdaderamente especial mi püa!</p>
         `;
     }
 
